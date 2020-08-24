@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/numers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Numbers"
+        android:textAllCaps="false"
+        android:background="@drawable/backnumber"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:textColor="#FF9800"
+        android:textSize="35sp"
+        android:fontFamily="monospace"
+
+
+        ></Button>
+    <Button
+        android:id="@+id/family_members"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Family Members"
+        android:textAllCaps="false"
+        android:background="@drawable/backfamily"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:textColor="#8BC34A"
+        android:textSize="25sp"
+        android:fontFamily="casual"
+
+        ></Button>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+    <Button
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Color"
+        android:textAllCaps="false"
+        android:background="@drawable/backcolor"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:textColor="#EDDC48"
+        android:textSize="35sp"
+        android:fontFamily="monospace"
+        ></Button>
+
+        <Button
+            android:id="@+id/phrases"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/backphrases"
+            android:gravity="center_horizontal"
+            android:text="Phrases"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="35sp"
+            android:fontFamily="monospace"
+
+            ></Button>
+    </LinearLayout>
+
+</LinearLayout>
